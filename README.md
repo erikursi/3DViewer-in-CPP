@@ -74,7 +74,7 @@ The settings are saved between program restarts.
 ### Additional information
 The application can generate texture coordinates and vertex normals if that information is not present in OBJ file.
 
-By default the program generates flat normals. In order to generate smooth normals you should modify file *3DViewer/sources/shared/consts.h** and set default_smooth_normals* to *true*.
+By default the program generates flat normals. In order to generate smooth normals you should modify file *3DViewer/sources/shared/consts.h* and set *default_smooth_normals* to *true*.
 
 <div align="center">
   <h3 align=center>Flat</h3>
