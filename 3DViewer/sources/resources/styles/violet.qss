@@ -1,0 +1,168 @@
+QGroupBox {
+    background-color: rgb(249, 213, 209);
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    border-style: outset;
+    border-width:0px;
+    border-radius: 0px;
+}
+
+
+QRadioButton::indicator {
+    width: 24px;
+    height: 24px;
+}
+
+QRadioButton {
+    color: rgb(21, 20, 40);
+    font: 16pt ;
+}
+
+QCheckBox::indicator {
+    width: 31px;
+    height: 31px;
+}
+
+QCheckBox {
+    background-color: rgb(249, 213, 209);
+    color:rgb(241, 42, 93);
+}
+
+QDial#dial_XRot{
+    background-color: rgb(169, 111, 161);
+}
+
+QDial#dial_YRot{
+    background-color: rgb(249, 213, 209);
+}
+
+QDial#dial_ZRot{
+    background-color:rgb(254, 255, 254);
+}
+
+QSpinBox {
+    background-color:rgb(254, 255, 254);
+    color: rgb(36, 36, 36);
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+QSpinBox::up-button { width: 30px; height: 30px; }
+QSpinBox::down-button { width: 30px; height: 30px; }
+
+
+QDoubleSpinBox {
+    background-color:rgb(254, 255, 254);
+    color: rgb(36, 36, 36);
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+
+QFrame{
+    background-color: rgb(49, 33, 65);
+    border-style: outset;
+    border-width:0px;
+    border-radius: 0px;
+}
+
+QFrame#frame_Window,  QFrame#frame_Dialog{
+    background-color: rgb(54, 63, 80);
+    border-radius: 10px;
+}
+
+QFrame#frame_LightModes, QFrame#frame_ColorModes, QFrame#frame_NormalModes, QFrame#frame_Ambient, QFrame#frame_Diffuse, QFrame#frame_Specular, QFrame#frame_SaveDir , QFrame#frame_LoadDir  {
+   background-color: rgb(25, 23, 44);
+}
+
+QSlider::groove:horizontal {
+    border: 0px solid #999999;
+    height: 12px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    background:rgb(19, 20, 41);
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background:rgb(250, 198, 204);
+    border: 0px solid #5c5c5c;
+    width: 12px;
+    margin: -4px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+    border-radius: 3px;
+}
+
+
+QSlider#hsld_NormalsScale::groove:horizontal, QSlider#vsld_AmbientScale::groove:horizontal, QSlider#vsld_DiffuseScale::groove:horizontal, QSlider#vsld_SpecularScale::groove:horizontal {
+  background:rgb(252, 226, 236);
+}
+
+QSlider#hsld_NormalsScale::handle:horizontal, QSlider#vsld_AmbientScale::handle:horizontal, QSlider#vsld_DiffuseScale::handle:horizontal, QSlider#vsld_SpecularScale::handle:horizontal {
+    background:rgb(173, 113, 163);
+}
+
+QPushButton{
+    background-color: rgb(19, 20, 41);
+    color: rgb(249, 235, 240);
+    border-radius: 20px;
+    font-size: 26px;
+}
+
+QPushButton:hover {
+    background-color: rgb(90, 60, 107);
+}
+
+QPushButton:pressed {
+    background-color: rgb(61, 44, 88);
+}
+
+QPushButton#btn_EdgeColor, QPushButton#btn_VertexColor,QPushButton#btn_FaceColor, QPushButton#btn_BgColor, QPushButton#btn_LightColor, QPushButton#btn_NormalColor {
+    font-size: 20px;
+}
+
+QPushButton#btn_Reset {
+        background-color: rgb(241, 42, 93);
+        color: rgb(252, 244, 249);
+        border-radius: 20px;
+}
+QPushButton#btn_Reset:hover{
+        background-color: rgb(245, 106, 134);
+}
+
+QPushButton#btn_Reset:pressed{
+        background-color: rgb(179, 38, 74);
+}
+
+QDialogButtonBox::Cancel {
+    background-color: rgb(19, 20, 41);
+    background-color: rgb(169, 111, 161);
+    color: rgb(249, 235, 240);
+    border-radius: 20px;
+    font-size: 26px;
+}
+
+
+QLabel {
+    background-color: rgb(91, 60, 106);
+    color:rgb(254, 255, 254);
+    font-size: 20px;
+    border-style: outset;
+    border-width:0px;
+    border-radius: 0px;
+}
+
+QLabel#lbl_FileName, QLabel#lbl_NumFaces, QLabel#lbl_NumVertices,QTextBrowser {
+    background-color: rgb(249, 213, 209);
+    color: rgb(36, 36, 36);
+}
+
+QTextBrowser {
+    background-color: rgb(249, 213, 209);
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    border-style: outset;
+    border-width:0px;
+    border-radius: 0px;
+}
+
+QLabel#lbl_Light, QLabel#lbl_Normals, QLabel#lbl_Texture, QLabel#lbl_Material,QLabel#lbl_Ambient, QLabel#lbl_Diffuse, QLabel#lbl_Specular, QLabel#lbl_Neon, QLabel#lbl_SaveDir, QLabel#lbl_LoadDir {
+   background-color: rgb(25, 23, 44);
+}

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="app.png">resources/icons/app.png</file>
+        <file alias="comp.png">resources/icons/comp.png</file>
+        <file alias="cube.png">resources/icons/cube.png</file>
+        <file alias="drop.png">resources/icons/drop.png</file>
+        <file alias="planet-earth.png">resources/icons/planet-earth.png</file>
+    </qresource>
+    <qresource prefix="/shaders">
+        <file alias="baseshader.vert">resources/shaders/baseshader.vert</file>
+        <file alias="baseshader.frag">resources/shaders/baseshader.frag</file>
+        <file alias="normalsshader.vert">resources/shaders/normalsshader.vert</file>
+        <file alias="normalsshader.frag">resources/shaders/normalsshader.frag</file>
+        <file alias="lightshader.vert">resources/shaders/lightshader.vert</file>
+        <file alias="lightshader.frag">resources/shaders/lightshader.frag</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file alias="violet.qss">resources/styles/violet.qss</file>
+    </qresource>
+</RCC>
