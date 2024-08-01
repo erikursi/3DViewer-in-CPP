@@ -42,7 +42,7 @@ Via GUI you can:
 - load materials with MTL files
 - load textures with image files
 - save rendered model as image
-- save rendered model as image
+- save rendered model as GIF
 - configure default load and save directories
 
 
@@ -69,7 +69,7 @@ Via GUI you can:
 - scale model
 
 ### Save settings
-The settings are saved between program restarts.
+The settings are saved between program restarts, as is the information about the last loaded model, texture and material.
 
 ### Additional information
 The application can generate texture coordinates and vertex normals if that information is not present in OBJ file.
