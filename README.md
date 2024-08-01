@@ -77,12 +77,12 @@ The application can generate texture coordinates and vertex normals if that info
 By default the program generates flat normals. In order to generate smooth normals you should modify file *3DViewer/sources/shared/consts.h* and set *default_smooth_normals* to *true*.
 
 <div align="center">
-  <h3 align=center>Flat</h3>
+  <h4 align=center>Flat</h4>
   <img src="./misc/15.png" alt="Scientific" width="70%">
     <img src="./misc/19.png" alt="Scientific" width="70%">
 
 
-  <h3 align=center>Smooth</h3>
+  <h4 align=center>Smooth</h4>
   <img src="./misc/16.png" alt="Scientific" width="70%">
   <img src="./misc/18.png" alt="Scientific" width="70%">
 </div>
