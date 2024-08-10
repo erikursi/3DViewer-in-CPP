@@ -372,25 +372,21 @@ class MeshModel {
   int VertexCount() const { return vertex_count_; }
   int FaceCount() const { return face_count_; }
   double ModelSize() const { return size_; }
-  int Edges() const {
-    int num_of_edges = 0;
-    auto faces = faces_;
+  int EdgeCount() const {
     QSet<QPair<int, int>> unique_edges;
-
-    for (const auto &face : faces) {
+    for (const auto &face : faces_) {
       int vertex_count = face.VertexCount();
       if (vertex_count > 1) {
-        auto vertices = face.VertexIndices();
+        auto vertex_indices = face.VertexIndices();
         for (int i = 0; i < vertex_count; ++i) {
-          int v1 = vertices[i];
-          int v2 = vertices[(i + 1) % vertex_count];
+          int v1 = vertex_indices[i];
+          int v2 = vertex_indices[(i + 1) % vertex_count];
           if (v1 > v2) std::swap(v1, v2);
-          unique_edges.insert(std::make_pair(v1, v2));
+          unique_edges.insert(qMakePair(v1, v2));
         }
       }
     }
-    num_of_edges = unique_edges.size();
-    return num_of_edges;
+    return unique_edges.size();
   }
   const QVector<Face> &Faces() const { return faces_; }
   const QString &MaterialLibrary() const { return mtllib_; }

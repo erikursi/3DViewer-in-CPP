@@ -830,7 +830,7 @@ class SceneModel : public QObject {
   }
 
   QString FaceCount() { return QString::number(mesh_model_.FaceCount()); }
-  QString GetEdges() { return QString::number(mesh_model_.Edges()); }
+  QString GetEdges() { return QString::number(mesh_model_.EdgeCount()); }
   QString VertexCount() { return QString::number(mesh_model_.VertexCount()); }
 
  private:

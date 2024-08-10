@@ -27,6 +27,7 @@ endif()
 
 set(SRC_DIR "${CMAKE_SOURCE_DIR}/sources")
 set(TESTS_DIR "${CMAKE_SOURCE_DIR}/tests")
+set(SAMPLES_DIR "${CMAKE_SOURCE_DIR}/samples")
 
 set(MODELS_DIR "${SRC_DIR}/model")
 set(CONTROLLERS_DIR "${SRC_DIR}/controller")
@@ -34,7 +35,7 @@ set(VIEWS_DIR "${SRC_DIR}/view")
 set(SHARED_DIR "${SRC_DIR}/shared")
 set(FORMS_DIR "${SRC_DIR}/forms")
 set(LIB_DIR "${SRC_DIR}/lib")
-set(SAMPLES_DIR "${SRC_DIR}/samples")
+
 
 set(RESOURCES_DIR "${SRC_DIR}/resources")
 set(SHADERS_DIR "${RESOURCES_DIR}/shaders")
